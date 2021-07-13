@@ -1,0 +1,23 @@
+Package: foofactors
+Title: Make Factors Less Aggravating
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alonso",
+           family = "Otiniano",
+           role = c("aut", "cre"),
+           email = "alonso.otiniano.z@uni.pe",
+           comment = c(ORCID = "0000-0001-6282-7992"))
+Description: Factors have driven people to extreme measures, like ordering
+    custom conference ribbons and laptop stickers to express how HELLNO we
+    feel about stringsAsFactors. And yet, sometimes you need them. Can they
+    be made less maddening? Let's find out.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    forcats
